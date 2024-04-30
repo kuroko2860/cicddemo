@@ -1,0 +1,14 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+
+# Dependency directories
+# In case you're using Yarn
+# /yarn-error.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables file (if applicable)
+.env
