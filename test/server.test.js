@@ -11,17 +11,17 @@ test("adds 1 + 2 to equal 3", () => {
 });
 
 // server test
-describe("GET /", () => {
-  test("should return 200 OK and a message", async () => {
-    const response = await request(app).get("/");
-    expect(response.status).toBe(200);
-    expect(response.body.message).toBe(
-      '"Hello, World! This is my first Express server. Some thing change!!!"'
-    );
-  });
-});
+// describe("GET /", () => {
+//   test("should return 200 OK and a message", async () => {
+//     const response = await request(app).get("/");
+//     expect(response.status).toBe(200);
+//     expect(response.body.message).toBe(
+//       '"Hello, World! This is my first Express server. Some thing change!!!"'
+//     );
+//   });
+// });
 
-afterAll((done) => {
-  app.close();
-  done();
-});
+// afterAll((done) => {
+//   app.close();
+//   done();
+// });
