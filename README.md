@@ -1,1 +1,1 @@
-readme placeholder
+CI/CD pipeline demo in Docker course (VDT2024)
