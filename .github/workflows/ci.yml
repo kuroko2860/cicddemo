@@ -10,6 +10,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
       - name: Run test
         run: npm run lint
       - name: Login Dockerhub
