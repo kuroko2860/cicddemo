@@ -20,3 +20,8 @@ describe("GET /", () => {
     );
   });
 });
+
+afterAll((done) => {
+  app.close();
+  done();
+});
